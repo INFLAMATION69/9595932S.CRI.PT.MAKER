@@ -29,7 +29,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/exxtremestuffs/Simple
 })
 
 Tab:AddButton({
-	Name = "Dark Dex. IY EDITION",
+	Name = "Dex IY",
 	Callback = function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/infyiff/backup/main/dex.lua'))()
   	end    
