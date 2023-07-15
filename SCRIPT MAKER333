@@ -28,3 +28,10 @@ Tab:AddButton({
 loadstring(game:HttpGet('https://raw.githubusercontent.com/infyiff/backup/main/dex.lua'))()
   	end    
 })
+
+Tab:AddButton({
+	Name = "Infinite Yield (MAX)",
+	Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+  	end    
+})
